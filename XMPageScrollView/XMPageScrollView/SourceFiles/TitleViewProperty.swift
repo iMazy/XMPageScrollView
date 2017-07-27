@@ -27,7 +27,7 @@ class TitleViewProperty {
     /// 底部滚动条的颜色
     var bottomLineColor : UIColor = UIColor.red
     /// 底部滚动条的高度
-    var bottomLineH : CGFloat = 2
+    var bottomLineH : CGFloat = 1
     
     /// contentView 切换动画
     var contentOffsetAnimated: Bool = true
