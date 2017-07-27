@@ -12,11 +12,11 @@
 		219120B81F29ABE6001F52A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219120B61F29ABE6001F52A7 /* LaunchScreen.storyboard */; };
 		219120C21F29AE27001F52A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C11F29AE27001F52A7 /* AppDelegate.swift */; };
 		219120C51F29AE31001F52A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C41F29AE31001F52A7 /* ViewController.swift */; };
-		219120C81F29AF43001F52A7 /* XMPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C71F29AF43001F52A7 /* XMPageScrollView.swift */; };
-		219120CC1F29AF5F001F52A7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C91F29AF5F001F52A7 /* MainContentView.swift */; };
-		219120CD1F29AF5F001F52A7 /* TitleViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120CA1F29AF5F001F52A7 /* TitleViewProperty.swift */; };
-		219120CE1F29AF5F001F52A7 /* TopTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120CB1F29AF5F001F52A7 /* TopTitlesView.swift */; };
 		219120D01F29AFC5001F52A7 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120CF1F29AFC5001F52A7 /* UIColor-Extension.swift */; };
+		219120F41F29F2FB001F52A7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F01F29F2FB001F52A7 /* MainContentView.swift */; };
+		219120F51F29F2FB001F52A7 /* TitleViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */; };
+		219120F61F29F2FB001F52A7 /* TopTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F21F29F2FB001F52A7 /* TopTitlesView.swift */; };
+		219120F71F29F2FB001F52A7 /* XMPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		219120B91F29ABE6001F52A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219120C11F29AE27001F52A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219120C41F29AE31001F52A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		219120C71F29AF43001F52A7 /* XMPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPageScrollView.swift; sourceTree = "<group>"; };
-		219120C91F29AF5F001F52A7 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
-		219120CA1F29AF5F001F52A7 /* TitleViewProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewProperty.swift; sourceTree = "<group>"; };
-		219120CB1F29AF5F001F52A7 /* TopTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTitlesView.swift; sourceTree = "<group>"; };
 		219120CF1F29AFC5001F52A7 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		219120F01F29F2FB001F52A7 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewProperty.swift; sourceTree = "<group>"; };
+		219120F21F29F2FB001F52A7 /* TopTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTitlesView.swift; sourceTree = "<group>"; };
+		219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		219120A11F29ABE6001F52A7 = {
 			isa = PBXGroup;
 			children = (
+				219120EF1F29F2FB001F52A7 /* SourceFiles */,
 				219120AC1F29ABE6001F52A7 /* XMPageScrollView */,
 				219120AB1F29ABE6001F52A7 /* Products */,
 			);
@@ -66,21 +67,9 @@
 			children = (
 				219120C01F29AE27001F52A7 /* AppDelegete */,
 				219120C31F29AE31001F52A7 /* Main */,
-				219120BF1F29AD9F001F52A7 /* SourceFiles */,
 				219120C61F29AE3F001F52A7 /* SystemFile */,
 			);
 			path = XMPageScrollView;
-			sourceTree = "<group>";
-		};
-		219120BF1F29AD9F001F52A7 /* SourceFiles */ = {
-			isa = PBXGroup;
-			children = (
-				219120C71F29AF43001F52A7 /* XMPageScrollView.swift */,
-				219120C91F29AF5F001F52A7 /* MainContentView.swift */,
-				219120CA1F29AF5F001F52A7 /* TitleViewProperty.swift */,
-				219120CB1F29AF5F001F52A7 /* TopTitlesView.swift */,
-			);
-			path = SourceFiles;
 			sourceTree = "<group>";
 		};
 		219120C01F29AE27001F52A7 /* AppDelegete */ = {
@@ -109,6 +98,17 @@
 				219120B91F29ABE6001F52A7 /* Info.plist */,
 			);
 			name = SystemFile;
+			sourceTree = "<group>";
+		};
+		219120EF1F29F2FB001F52A7 /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				219120F01F29F2FB001F52A7 /* MainContentView.swift */,
+				219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */,
+				219120F21F29F2FB001F52A7 /* TopTitlesView.swift */,
+				219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */,
+			);
+			path = SourceFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,13 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				219120C81F29AF43001F52A7 /* XMPageScrollView.swift in Sources */,
 				219120C21F29AE27001F52A7 /* AppDelegate.swift in Sources */,
 				219120C51F29AE31001F52A7 /* ViewController.swift in Sources */,
-				219120CD1F29AF5F001F52A7 /* TitleViewProperty.swift in Sources */,
-				219120CC1F29AF5F001F52A7 /* MainContentView.swift in Sources */,
 				219120D01F29AFC5001F52A7 /* UIColor-Extension.swift in Sources */,
-				219120CE1F29AF5F001F52A7 /* TopTitlesView.swift in Sources */,
+				219120F51F29F2FB001F52A7 /* TitleViewProperty.swift in Sources */,
+				219120F71F29F2FB001F52A7 /* XMPageScrollView.swift in Sources */,
+				219120F41F29F2FB001F52A7 /* MainContentView.swift in Sources */,
+				219120F61F29F2FB001F52A7 /* TopTitlesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
