@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XMPageScrollView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A simple view for scrollView with titles combine pageView."
 
   s.homepage     = "https://github.com/Mazy-ma/XMPageScrollView"
