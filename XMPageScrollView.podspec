@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 s.source       = { :git => "https://github.com/Mazy-ma/XMPageScrollView.git", :tag => "0.0.5" }
 
-  s.source_files  = "XMPageScrollView/XMPageScrollView/SourceFiles/*.{swift}"
+  s.source_files  = "XMPageScrollView/SourceFiles/*.{swift}"
 
   s.requires_arc = true
 
