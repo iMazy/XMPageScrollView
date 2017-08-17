@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import PageScrollView
 
 class ViewController: UIViewController {
 

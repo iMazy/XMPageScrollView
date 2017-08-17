@@ -13,11 +13,38 @@
 		219120C21F29AE27001F52A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C11F29AE27001F52A7 /* AppDelegate.swift */; };
 		219120C51F29AE31001F52A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120C41F29AE31001F52A7 /* ViewController.swift */; };
 		219120D01F29AFC5001F52A7 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120CF1F29AFC5001F52A7 /* UIColor-Extension.swift */; };
-		219120F41F29F2FB001F52A7 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F01F29F2FB001F52A7 /* MainContentView.swift */; };
-		219120F51F29F2FB001F52A7 /* TitleViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */; };
-		219120F61F29F2FB001F52A7 /* TopTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F21F29F2FB001F52A7 /* TopTitlesView.swift */; };
-		219120F71F29F2FB001F52A7 /* XMPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */; };
+		21B17ADB1F45972300E88155 /* PageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B17AD91F45972300E88155 /* PageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21B17ADE1F45972300E88155 /* PageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B17AD71F45972300E88155 /* PageScrollView.framework */; };
+		21B17ADF1F45972300E88155 /* PageScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21B17AD71F45972300E88155 /* PageScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		21B17AE81F45974600E88155 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B17AE41F45974600E88155 /* MainContentView.swift */; };
+		21B17AE91F45974600E88155 /* TitleViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B17AE51F45974600E88155 /* TitleViewProperty.swift */; };
+		21B17AEA1F45974600E88155 /* TopTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B17AE61F45974600E88155 /* TopTitlesView.swift */; };
+		21B17AEB1F45974600E88155 /* XMPageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B17AE71F45974600E88155 /* XMPageScrollView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B17ADC1F45972300E88155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219120A21F29ABE6001F52A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B17AD61F45972300E88155;
+			remoteInfo = PageScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21B17AE31F45972300E88155 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				21B17ADF1F45972300E88155 /* PageScrollView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		219120AA1F29ABE6001F52A7 /* XMPageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,14 +55,25 @@
 		219120C11F29AE27001F52A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		219120C41F29AE31001F52A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		219120CF1F29AFC5001F52A7 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
-		219120F01F29F2FB001F52A7 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
-		219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewProperty.swift; sourceTree = "<group>"; };
-		219120F21F29F2FB001F52A7 /* TopTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTitlesView.swift; sourceTree = "<group>"; };
-		219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPageScrollView.swift; sourceTree = "<group>"; };
+		21B17AD71F45972300E88155 /* PageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B17AD91F45972300E88155 /* PageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
+		21B17ADA1F45972300E88155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B17AE41F45974600E88155 /* MainContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		21B17AE51F45974600E88155 /* TitleViewProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewProperty.swift; sourceTree = "<group>"; };
+		21B17AE61F45974600E88155 /* TopTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTitlesView.swift; sourceTree = "<group>"; };
+		21B17AE71F45974600E88155 /* XMPageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMPageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		219120A71F29ABE6001F52A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B17ADE1F45972300E88155 /* PageScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B17AD31F45972300E88155 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,8 +86,8 @@
 		219120A11F29ABE6001F52A7 = {
 			isa = PBXGroup;
 			children = (
-				219120EF1F29F2FB001F52A7 /* SourceFiles */,
 				219120AC1F29ABE6001F52A7 /* XMPageScrollView */,
+				21B17AD81F45972300E88155 /* PageScrollView */,
 				219120AB1F29ABE6001F52A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				219120AA1F29ABE6001F52A7 /* XMPageScrollView.app */,
+				21B17AD71F45972300E88155 /* PageScrollView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,18 +139,31 @@
 			name = SystemFile;
 			sourceTree = "<group>";
 		};
-		219120EF1F29F2FB001F52A7 /* SourceFiles */ = {
+		21B17AD81F45972300E88155 /* PageScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				219120F01F29F2FB001F52A7 /* MainContentView.swift */,
-				219120F11F29F2FB001F52A7 /* TitleViewProperty.swift */,
-				219120F21F29F2FB001F52A7 /* TopTitlesView.swift */,
-				219120F31F29F2FB001F52A7 /* XMPageScrollView.swift */,
+				21B17AE41F45974600E88155 /* MainContentView.swift */,
+				21B17AE51F45974600E88155 /* TitleViewProperty.swift */,
+				21B17AE61F45974600E88155 /* TopTitlesView.swift */,
+				21B17AE71F45974600E88155 /* XMPageScrollView.swift */,
+				21B17AD91F45972300E88155 /* PageScrollView.h */,
+				21B17ADA1F45972300E88155 /* Info.plist */,
 			);
-			path = SourceFiles;
+			path = PageScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		21B17AD41F45972300E88155 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B17ADB1F45972300E88155 /* PageScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		219120A91F29ABE6001F52A7 /* XMPageScrollView */ = {
@@ -121,15 +173,35 @@
 				219120A61F29ABE6001F52A7 /* Sources */,
 				219120A71F29ABE6001F52A7 /* Frameworks */,
 				219120A81F29ABE6001F52A7 /* Resources */,
+				21B17AE31F45972300E88155 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				21B17ADD1F45972300E88155 /* PBXTargetDependency */,
 			);
 			name = XMPageScrollView;
 			productName = XMPageScrollView;
 			productReference = 219120AA1F29ABE6001F52A7 /* XMPageScrollView.app */;
 			productType = "com.apple.product-type.application";
+		};
+		21B17AD61F45972300E88155 /* PageScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B17AE21F45972300E88155 /* Build configuration list for PBXNativeTarget "PageScrollView" */;
+			buildPhases = (
+				21B17AD21F45972300E88155 /* Sources */,
+				21B17AD31F45972300E88155 /* Frameworks */,
+				21B17AD41F45972300E88155 /* Headers */,
+				21B17AD51F45972300E88155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageScrollView;
+			productName = PageScrollView;
+			productReference = 21B17AD71F45972300E88155 /* PageScrollView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,6 +215,11 @@
 				TargetAttributes = {
 					219120A91F29ABE6001F52A7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					21B17AD61F45972300E88155 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -161,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				219120A91F29ABE6001F52A7 /* XMPageScrollView */,
+				21B17AD61F45972300E88155 /* PageScrollView */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +254,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		21B17AD51F45972300E88155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -186,14 +271,29 @@
 				219120C21F29AE27001F52A7 /* AppDelegate.swift in Sources */,
 				219120C51F29AE31001F52A7 /* ViewController.swift in Sources */,
 				219120D01F29AFC5001F52A7 /* UIColor-Extension.swift in Sources */,
-				219120F51F29F2FB001F52A7 /* TitleViewProperty.swift in Sources */,
-				219120F71F29F2FB001F52A7 /* XMPageScrollView.swift in Sources */,
-				219120F41F29F2FB001F52A7 /* MainContentView.swift in Sources */,
-				219120F61F29F2FB001F52A7 /* TopTitlesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B17AD21F45972300E88155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B17AE91F45974600E88155 /* TitleViewProperty.swift in Sources */,
+				21B17AEB1F45974600E88155 /* XMPageScrollView.swift in Sources */,
+				21B17AE81F45974600E88155 /* MainContentView.swift in Sources */,
+				21B17AEA1F45974600E88155 /* TopTitlesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B17ADD1F45972300E88155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B17AD61F45972300E88155 /* PageScrollView */;
+			targetProxy = 21B17ADC1F45972300E88155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		219120B11F29ABE6001F52A7 /* Main.storyboard */ = {
@@ -311,6 +411,7 @@
 		219120BD1F29ABE6001F52A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMPageScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -324,6 +425,7 @@
 		219120BE1F29ABE6001F52A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XMPageScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -331,6 +433,55 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Mazy.XMPageScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21B17AE01F45972300E88155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PageScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mazy.PageScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21B17AE11F45972300E88155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PageScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Mazy.PageScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -354,6 +505,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		21B17AE21F45972300E88155 /* Build configuration list for PBXNativeTarget "PageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B17AE01F45972300E88155 /* Debug */,
+				21B17AE11F45972300E88155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

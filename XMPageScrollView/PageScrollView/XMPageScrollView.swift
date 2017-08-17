@@ -8,7 +8,7 @@
 
 import UIKit
 
-class XMPageScrollView: UIView {
+public class XMPageScrollView: UIView {
 
     fileprivate var titles: [String]
     fileprivate var childVC: [UIViewController]
@@ -17,7 +17,7 @@ class XMPageScrollView: UIView {
     fileprivate var parentVC: UIViewController!
     fileprivate var titleProperty: TitleViewProperty
     
-    init(frame: CGRect, titles: [String], childVC: [UIViewController], parentVC: UIViewController, titleProperty: TitleViewProperty) {
+    public init(frame: CGRect, titles: [String], childVC: [UIViewController], parentVC: UIViewController, titleProperty: TitleViewProperty) {
         self.titles = titles
         self.childVC = childVC
         self.parentVC = parentVC
@@ -27,7 +27,7 @@ class XMPageScrollView: UIView {
         setupUI()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
