@@ -513,6 +513,7 @@
 				21B17AE11F45972300E88155 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
